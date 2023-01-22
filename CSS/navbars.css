@@ -132,28 +132,41 @@ text-decoration: underline;
 
 }
 
+/******* iini LogIn*********/
+.container-centre-M
+{
+	display: flex;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+.form-signin {
+	max-width: 530px;
+	padding: 15px;
+  }
+  .form-signin .form-floating:focus-within {
+	z-index: 2;
+  }
+  .form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+  }
+  
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+  }
 
 
-/****************************************ENGRUNES**************************************************/
-/*#divEngrunes 
-{ 
-	background: url(../imatges/sota-engrunes.png)  0 0 repeat-x;
-	height:10px;
-	width:100%;
+.imatgelogo3{
+
+	display: block;
+	
+	margin-left: auto;
+	margin-right: auto;
+
 }
-#dintreEngruna
-{
-	margin-left:25px;
-	width:90%;
-}
-#engrunes
-{
-	height:20px;
-	width:90%;
-}
-.engrunes1
-{
-    position: relative;
-    display: block;
-}
-/***************************************FI ENGRUNES************************************************/
+
