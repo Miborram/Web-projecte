@@ -100,9 +100,60 @@ background-color: red;;
 /*Fi Footer*/
 .prova
 {
-/*background-image: url("../Imatges/prova.png");
+background-image: url("../Imatges/prova.png");
 background-repeat: no-repeat;
-left: 0px;
-*/
+
+background-position: center top;
+background-size: 100% auto;
 
 }
+
+
+
+.Engrunes
+{	
+	background: url(../imatges/sota-engrunes.png)  0 0 repeat-x;
+}
+.container-engrunes
+{
+	height: 25px;
+}
+.nav-link-lila
+{
+color:#6d79CE;
+font-weight: bold;
+
+}
+.nav-link-lila:hover
+{
+color:#6d79CE;
+font-weight: bold;
+text-decoration: underline;
+
+}
+
+
+
+/****************************************ENGRUNES**************************************************/
+/*#divEngrunes 
+{ 
+	background: url(../imatges/sota-engrunes.png)  0 0 repeat-x;
+	height:10px;
+	width:100%;
+}
+#dintreEngruna
+{
+	margin-left:25px;
+	width:90%;
+}
+#engrunes
+{
+	height:20px;
+	width:90%;
+}
+.engrunes1
+{
+    position: relative;
+    display: block;
+}
+/***************************************FI ENGRUNES************************************************/
