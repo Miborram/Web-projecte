@@ -1,0 +1,172 @@
+@media all and (min-width: 992px) {
+
+	.dropdown-menu li{
+		position: relative;
+   
+	}
+	.dropdown-menu .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.dropdown-menu .submenu-left{ 
+		right:100%; left:auto;
+	}
+
+
+	.dropdown-menu > li:hover{ background-color: #6d79CE }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+	}
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+
+.dropdown-menu .dropdown-menu{
+		margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem; 
+}
+
+}	
+/* ============ small devices .end// ============ */
+
+/*boto busrcar*/
+.submit-btn-M
+{
+	background-color: #6d79CE;
+	color:#ffffff;
+	border-color: #ffffff;
+}
+.submit-btn-M:hover
+{
+	background-color: #ccd1fc;
+	color:black;
+}
+.submit-btn-M:active
+{
+	background-color: #ccd1fc;
+	color:black;
+}
+/*Fi boto buscar*/
+/*menu*/
+.bg-lila
+{
+	background-color:#6d79CE;
+}
+.dropdown-menu 
+{ 
+	background-color: #ffffff; 
+}
+.dropdown-item:hover
+{
+	background-color: #6d79CE;      
+	color:#ffffff; 
+}
+
+.nav-link
+{
+	color:#ffffff;
+}
+.nav-link:hover
+{ 
+	color:#ccd1fc;
+}
+.dropdown-item-M:hover
+{
+	background-color: #ffffff;      
+	color:#6d79CE; 
+}
+
+/*fi menu*/
+/*Footer*/
+.footerMI 
+  {
+	background-color: #6d79CE;
+  }
+.footerTB
+{
+background-color: red;;
+}
+
+.peu:hover  
+{
+	color:#ffffff;   text-decoration: underline;
+}
+.peu
+{
+	color:#ffffff;
+}
+/*Fi Footer*/
+.prova
+{
+background-image: url("../Imatges/prova.png");
+background-repeat: no-repeat;
+
+background-position: center top;
+background-size: 100% auto;
+
+}
+
+
+
+.Engrunes
+{	
+	background: url(../imatges/sota-engrunes.png)  0 0 repeat-x;
+}
+.container-engrunes
+{
+	height: 25px;
+}
+.nav-link-lila
+{
+color:#6d79CE;
+font-weight: bold;
+
+}
+.nav-link-lila:hover
+{
+color:#6d79CE;
+font-weight: bold;
+text-decoration: underline;
+
+}
+
+/******* iini LogIn*********/
+.container-centre-M
+{
+	display: flex;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+.form-signin {
+	max-width: 530px;
+	padding: 15px;
+  }
+  .form-signin .form-floating:focus-within {
+	z-index: 2;
+  }
+  .form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+  }
+  
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+  }
+
+
+.imatgelogo3{
+
+	display: block;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
